@@ -242,9 +242,19 @@ margin-left: auto;
     display: flex;
     align-items: center;
     gap: 24px;
-    
-    
 }
+
+.banefits-list-icon {
+display: flex;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+height: 112px;
+align-items: center;
+justify-content: center;
+margin-bottom: 8px;
+background-color: #f4f4fd;
+}
+
 .banefits-item {
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
