@@ -49,6 +49,7 @@ ul, ol {
 .page-header {
 color: #ffffff;
 border-bottom: 1px solid #E7E9FC;
+box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 
 .header-container {
@@ -140,7 +141,7 @@ margin-left: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: 259ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-data:hover,
@@ -161,6 +162,8 @@ margin-left: auto;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -197,7 +200,8 @@ margin-left: auto;
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .order-serv-btn:hover,
@@ -341,6 +345,7 @@ display: flex;
 .social-media-list-item { 
 height: 40px;
 width: 40px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-links {
@@ -351,15 +356,15 @@ width: 40px;
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    
 }
 
 .social-media-icons {
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
-.social-media-links:hover {
-    background-color: #404BBF;
+.social-media-links:hover,
+.social-media-links:focus {
+    background-color: #404bbf;
 }
 /* /Team Members Section style */
 
@@ -424,6 +429,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .released-product {
@@ -442,6 +448,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     color: #434455;
     text-align: start;
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* /Team Portfolio Section style */
 
@@ -504,7 +511,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media-item {
-        display: list-item;
+background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+        
 }
 
 .footer-media-link {
@@ -522,7 +530,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #31d0aa;
 }
 .footer-media-link-icon {
-    fill: #ffffff;
+    fill: #f4f4fd;
 }    
 
 
